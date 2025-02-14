@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+    <link rel="stylesheet" href="styledesc.css">
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Love Section Styling */
+        .love {
+            margin-top: 100px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .line-by-line {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            display: inline-block;
+            text-align: left;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animated Text Effect */
+        .line-by-line span {
+            opacity: 0;
+            display: inline-block;
+            animation: fadeIn 1s forwards;
+        }
+
+        .line-by-line span:nth-child(1) { animation-delay: 0s; }
+        .line-by-line span:nth-child(2) { animation-delay: 1s; }
+        .line-by-line span:nth-child(3) { animation-delay: 2s; }
+        .line-by-line span:nth-child(4) { animation-delay: 3s; }
+        .line-by-line span:nth-child(5) { animation-delay: 4s;}
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Why Love Section */
+        .ylove {
+            margin-top: 50px;
+            font-size: 22px;
+            color: #555;
+        }
+
+        .ylove p {
+            font-size: 20px;
+            font-weight: 500;
+            color: #2c3e50;
+            background: #fff;
+            display: inline-block;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button Styling */
+        .ylove a button {
+        margin-top: 18px;
+        padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .ylove a button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="love">
+        <pre class="line-by-line">
+            <span>I love❤️✨:</span>
+            <span># Cats🐱</span>
+            <span># Singing🎤</span>
+            <span># Sleeping 😴 </span>
+            <span># Reading novels📚</span>
+        </pre>
+    </div>
+
+    <div class="ylove">
+        <p class="whylove">
+            Why should someone date me?  
+            <br>
+            Agar ye pata hota... to aaj mai ghumne jaati.. 🥲
+        </p>
+        <a href="index3.html">
+            <button class="button">Why should you date me?</button>
+        </a>
+    </div>
+<style>
+    
+    .ylove{
+        background-color: rgb(250, 150, 200);
+    }
+.button{
+    background-color: lightpink;
+}
+.love{
+    background-color: rgb(250, 150, 200);
+}
+</style>
+</body>
+</html>
