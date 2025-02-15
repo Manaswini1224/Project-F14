@@ -7,7 +7,7 @@ HTML
 CSS
 
 📌 Live Demo
-Check out the project live: Project F14
+Check out the project live: https://manaswini1224.github.io/Project-F14/
 
 
 
